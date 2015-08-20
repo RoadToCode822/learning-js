@@ -1,0 +1,5 @@
+//Random number generation function
+function generateRandomNumber(max, min){
+  var randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
+  return (randomNumber);
+}
