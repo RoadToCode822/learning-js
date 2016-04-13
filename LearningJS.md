@@ -10,7 +10,7 @@ Here's a scenario where `let` is used
 function HelloWorld() {
   //div is not available here
   for (let div = 0; div < 5; div++) {
-    //Insert some loop action on each dom
+    //Insert some loop action on each div
     //div is only available within this enclosing block
   };
 };
