@@ -6,7 +6,7 @@ var is scoped to the nearest function block whereas let is scoped to the nearest
 
 Here's a scenario where `let` is used
 
-```
+```javascript
 function HelloWorld() {
   //div is not available here
   for (let div = 0; div < 5; div++) {
@@ -17,7 +17,7 @@ function HelloWorld() {
 ```
 
 Here's an example where `var` is used:
-```
+```javascript
 function ByeWorld() {
   //shoes is available here, within the function block.
   for (var shoes = 0; shoes < 10; shoes++) {
